@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f8bff"/>
+      <stop offset="100%" stop-color="#3a5fff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded Background -->
+  <rect width="64" height="64" rx="16" fill="url(#blueGradient)" />
+
+  <!-- Stylish M -->
+  <text x="50%" y="50%" font-size="36" font-family="Arial, sans-serif" fill="white" font-weight="bold" text-anchor="middle" alignment-baseline="central" dy=".1em">
+    M
+  </text>
+</svg>
