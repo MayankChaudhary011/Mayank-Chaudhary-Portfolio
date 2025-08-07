@@ -23,16 +23,16 @@ svg{
 }
 
 :root{
---color-text-light: #333332;
+--color-text-light: #000000;
 --color-background-light:#D2E0FB;
 --color-blue-light:#4E71FF;
 --color-green-light:#B22222;
---color-red-light:#333446;
+--color-red-light:#000000;
 
 
 /* Dark */
---color-text-dark:#F6B17A;
---color-background-dark:#1E3E62;
+--color-text-dark:#F5F5F5;
+--color-background-dark:#393E46;
 
 }
 
@@ -154,7 +154,7 @@ svg{
   position: absolute;
   top:50%;
   left:50%;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 20px;
   color: var(--color-text);
   transform: translate(-50%,-50%);
@@ -438,12 +438,14 @@ transform: scale(0.9);
 .hero-main-title{
   font-size: 64px;
     color: var(--color-text);
+    font-weight: bold;
 }
 
 
 .hero-main-description{
-  font-size: 18px;
+  font-size: 25px;
   color: var(--color-text);
+  font-weight: bold;
 }
 
 
@@ -453,6 +455,7 @@ transform: scale(0.9);
   text-transform: uppercase;
   color: var(--color-text);
   transform: translateX(10px);
+  font-weight: 700;
 
 }
 
